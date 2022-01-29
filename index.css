@@ -1,0 +1,71 @@
+.title{
+    text-align: center;
+    font-family: sans-serif;
+    font-weight: bold;
+    font-size: 35PX;
+    margin-top: 55px;
+}
+/* Chrome, Safari, Edge, Opera */
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+input[type=number] {
+    -moz-appearance: textfield;
+}
+#fullname{
+    width: 370px;
+    max-height: 350px;
+    height: 45px;
+    border-radius: 5px;
+    outline-width: 1px;
+    outline-color: grey;
+    background-color: rgb(240, 239, 239);
+    margin-right: 20px;
+}
+#fullname:hover{
+    background-color: #E5E5E5;;
+}
+#age{
+    width: 370px;
+    max-height: 350px;
+    height: 45px;
+    border-radius: 5px;
+    outline-width: 1px;
+    outline-color: grey;
+    background-color: rgb(240, 239, 239);
+    margin-left: 20px;
+    margin-right: 20px;
+}
+#age:hover{
+    background-color: #E5E5E5;;
+}
+#email{
+    width: 370px;
+    max-height: 350px;
+    height: 45px;
+    border-radius: 5px;
+    outline-width: 1px;
+    outline-color: grey;
+    background-color: rgb(240, 239, 239);
+    margin-left: 20px;
+    
+}
+#email:hover{
+    background-color: #E5E5E5;;
+}
+.form_div{
+    display: flex;
+    justify-content: center;
+    margin-top: 150px;
+}
+#submit{
+    height: 40px;
+    width: 120px;
+    margin-left: 46%;
+    margin-top: 80px;
+}
+#submit:hover{
+    cursor: pointer;
+}
